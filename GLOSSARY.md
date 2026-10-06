@@ -1,27 +1,36 @@
-# Course Platform
+# Cadence
 
-A platform where learners buy and take video courses published by instructors.
+Cadence sells video courses to learners. This glossary covers the language around getting money back after a purchase.
 
 ## Language
 
-### Buying and refunds
-
-**Purchase**:
-A single payment that grants access to one course. A team licence Purchase belongs to the team buyer, not to the learners who claim its seats.
-_Avoid_: Order, transaction
+### Refunds
 
 **Refund Request**:
-A learner's ask, with their reason, to get their money back on a Purchase. A Purchase has at most one Refund Request, and once declined it is final and produces no Refund.
-_Avoid_: Cancellation, chargeback, reversal, refund (when no money has moved yet)
+A learner's ask, with their reason, to get back what they paid for a purchase. The team approves or declines it. One purchase can have several Refund Requests over time, but only one can be undecided at once.
+_Avoid_: Refund (for the ask itself), Cancellation, Reversal, Chargeback
 
-**Pending** / **Approved** / **Declined**:
-The states of a Refund Request. It starts Pending and moves once, to either Approved or Declined.
-_Avoid_: Requested, open, rejected
+**Open Refund Request**:
+A Refund Request the team hasn't decided yet.
+_Avoid_: Pending, Requested, Awaiting review
+
+**Approved Refund Request**:
+A Refund Request the team has accepted. Approving it is what leads to a Refund.
+
+**Declined Refund Request**:
+A Refund Request the team has turned down. It has no Refund, and the learner may raise a new Refund Request.
 
 **Refund**:
-The return of exactly the amount paid on a Purchase, made when a Refund Request is approved. Once refunded, the learner loses access to the course.
-_Avoid_: Reversal, chargeback, cancellation
+The money returned to a learner after their Refund Request is approved. It is always the full amount they paid. A declined Refund Request has no Refund.
+_Avoid_: Reversal, Chargeback, Cancellation
 
-**Refund Window**:
-The 14 days after a Purchase during which the learner may raise a Refund Request.
-_Avoid_: Cancel window, cancellation period
+**Pending Refund**:
+A Refund the team has approved where the money hasn't been confirmed as sent yet.
+_Avoid_: Pending (for a Refund Request awaiting review)
+
+**Issued Refund**:
+A Refund where the money has been confirmed as sent back to the learner.
+_Avoid_: Completed, Paid out
+
+**Failed Refund**:
+A Refund where the money couldn't be sent. The Refund Request stays approved, because the decision hasn't changed.
